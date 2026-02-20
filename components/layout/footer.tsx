@@ -2,21 +2,9 @@
 
 import Link from 'next/link';
 import {Facebook, Instagram, Linkedin, Twitter, FileText} from 'lucide-react';
-import {generateCompanyPresentation} from '@/lib/ppt-generator';
 import {Button} from '@/components/ui/button';
-import {toast} from 'sonner';
 
 export function Footer() {
-  const handleDownloadPPT = async () => {
-    try {
-      toast.info('Generating presentation...');
-      await generateCompanyPresentation();
-      toast.success('Presentation downloaded successfully!');
-    } catch (error) {
-      console.error('Failed to generate PPT:', error);
-      toast.error('Failed to generate presentation.');
-    }
-  };
 
   return (
     <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
@@ -100,13 +88,14 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <button 
-                  onClick={handleDownloadPPT}
+                <a 
+                  href="/Denim Profile A.pptx"
+                  download="Denim-Profile.pptx"
                   className="hover:text-blue-400 flex items-center gap-2 text-left"
                 >
                   <FileText className="h-3 w-3" />
                   Download Company PPT
-                </button>
+                </a>
               </li>
             </ul>
           </div>

@@ -5,20 +5,8 @@ import {Button} from '@/components/ui/button';
 import Link from 'next/link';
 import Image from 'next/image';
 import {FileText} from 'lucide-react';
-import {generateCompanyPresentation} from '@/lib/ppt-generator';
-import {toast} from 'sonner';
 
 export function Hero() {
-  const handleDownloadPPT = async () => {
-    try {
-      toast.info('Generating presentation...');
-      await generateCompanyPresentation();
-      toast.success('Presentation downloaded successfully!');
-    } catch (error) {
-      console.error('Failed to generate PPT:', error);
-      toast.error('Failed to generate presentation.');
-    }
-  };
 
   return (
     <section className="relative h-[90vh] min-h-[600px] w-full overflow-hidden bg-slate-900">
@@ -68,10 +56,15 @@ export function Hero() {
               size="lg"
               variant="outline"
               className="text-base px-8 bg-transparent text-white border-white/20 hover:bg-white/10 hover:text-white"
-              onClick={handleDownloadPPT}
+              asChild
             >
-              <FileText className="mr-2 h-4 w-4" />
-              Download PPT
+              <a
+                href="/Denim Profile A.pptx"
+                download="Denim-Profile.pptx"
+              >
+                <FileText className="mr-2 h-4 w-4" />
+                Download PPT
+              </a>
             </Button>
           </div>
         </motion.div>
