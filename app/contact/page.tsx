@@ -216,9 +216,9 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-bold text-slate-900">Headquarters</h3>
                       <p className="text-slate-600">
-                        123 Textile Avenue<br />
-                        Garment District, NY 10018<br />
-                        United States
+                        Plot G 4, 10B, Nazimabad Number 2 Block 2<br />
+                        Nazimabad, Karachi, 74600<br />
+                        Pakistan
                       </p>
                     </div>
                   </div>
@@ -229,8 +229,9 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900">Phone</h3>
-                      <p className="text-slate-600">+1 (555) 123-4567</p>
-                      <p className="text-slate-500 text-sm">Mon-Fri, 9am - 6pm EST</p>
+                      <p className="text-slate-600">+92 3362793950</p>
+                      <p className="text-slate-600">+92 3121278031</p>
+                      <p className="text-slate-500 text-sm">Mon-Fri, 9am - 6pm PKT</p>
                     </div>
                   </div>
 
@@ -240,8 +241,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900">Email</h3>
-                      <p className="text-slate-600">hello@wrapweftco.com</p>
-                      <p className="text-slate-600">sales@wrapweftco.com</p>
+                      <p className="text-slate-600">info@warpweftco.com</p>
                     </div>
                   </div>
                 </div>

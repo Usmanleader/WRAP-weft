@@ -12,7 +12,7 @@ import {cn} from '@/lib/utils';
 import {supabase, type Collection} from '@/lib/supabase';
 import {toast} from 'sonner';
 
-const categories = ['All', 'Denim', 'Sustainable', 'Performance', 'Lightweight', 'Workwear'];
+const categories = ['All', 'Jeans', 'Jackets', 'Skirts'];
 
 export default function CollectionsPage() {
   const [activeCategory, setActiveCategory] = useState('All');

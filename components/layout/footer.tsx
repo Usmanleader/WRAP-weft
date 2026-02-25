@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import {Facebook, Instagram, Linkedin, Twitter, FileText} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 
@@ -12,12 +13,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <div className="h-8 w-8 bg-blue-500 rounded-sm flex items-center justify-center text-white font-serif font-bold text-xl">
-                W
-              </div>
-              <span className="text-lg font-serif font-bold tracking-tight text-white">
-                Wrap Weft & Co
-              </span>
+              <Image
+                src="/retygfdh.png"
+                alt="Wrap Weft & Co"
+                width={120}
+                height={32}
+                className="h-8 w-auto"
+              />
             </Link>
             <p className="text-sm text-slate-400 max-w-xs">
               Premium denim and textile supplier for the modern fashion industry.
@@ -89,12 +91,12 @@ export function Footer() {
               </li>
               <li>
                 <a 
-                  href="/Denim Profile A.pptx"
-                  download="Denim-Profile.pptx"
+                  href="/WARPWEFT&CO.pdf"
+                  download="WARPWEFT&CO.pdf"
                   className="hover:text-blue-400 flex items-center gap-2 text-left"
                 >
                   <FileText className="h-3 w-3" />
-                  Download Company PPT
+                  Download Company Profile
                 </a>
               </li>
             </ul>

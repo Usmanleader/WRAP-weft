@@ -30,7 +30,7 @@ export function Hero() {
           className="max-w-2xl space-y-6"
         >
           <div className="inline-block rounded-full bg-blue-900/30 px-3 py-1 text-sm font-medium text-blue-200 border border-blue-800/50 backdrop-blur-sm">
-            Est. 1985 • Premium Textile Manufacturing
+            Premium Textile Manufacturing
           </div>
           <h1 className="font-serif text-5xl font-bold leading-tight text-white md:text-7xl">
             Weaving the Fabric of <span className="text-blue-400">Modern Fashion</span>
@@ -59,11 +59,11 @@ export function Hero() {
               asChild
             >
               <a
-                href="/Denim Profile A.pptx"
-                download="Denim-Profile.pptx"
+                href="/WARPWEFT&CO.pdf"
+                download="WARPWEFT&CO.pdf"
               >
                 <FileText className="mr-2 h-4 w-4" />
-                Download PPT
+                Download Company Profile
               </a>
             </Button>
           </div>
