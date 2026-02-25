@@ -30,6 +30,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Empty turbopack config to satisfy Next.js 16 requirement
+  turbopack: {},
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {
