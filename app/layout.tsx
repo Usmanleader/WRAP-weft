@@ -15,8 +15,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Wrap Weft & Co | Premium Fabric Supplier',
-  description: 'Wrap Weft & Co is a leading supplier of premium denim and textiles, serving fashion houses and designers worldwide.',
+  title: 'Wrap Weft & Co | Global Denim Sourcing Agency & Manufacturer Network',
+  description: 'Global denim sourcing agency connecting brands with verified manufacturers worldwide. Access 500+ denim mills, quality assurance, and end-to-end sourcing services.',
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {

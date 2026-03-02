@@ -81,10 +81,11 @@ function ContactForm() {
           <Check className="h-8 w-8" />
         </div>
         <h3 className="font-serif text-2xl font-bold text-slate-900 mb-2">
-          Message Sent!
+          Sourcing Request Received!
         </h3>
         <p className="text-slate-600 mb-8">
-          Thank you for reaching out. We&apos;ll get back to you shortly.
+          Thank you for submitting your requirements. Our sourcing team will review
+          your needs and match you with suitable manufacturers within 24 hours.
         </p>
         <Button onClick={() => setIsSubmitted(false)} variant="outline">
           Send Another Message
@@ -96,29 +97,29 @@ function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       <h2 className="font-serif text-2xl font-bold text-slate-900 mb-6">
-        Send us a Message
+        Tell Us Your Sourcing Needs
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="space-y-2">
           <label htmlFor="firstName" className="text-sm font-medium text-slate-700">
-            First Name
+            First Name *
           </label>
           <Input 
             id="firstName" 
             required 
-            placeholder="Jane" 
+            placeholder="John" 
             value={formData.firstName}
             onChange={handleChange}
           />
         </div>
         <div className="space-y-2">
           <label htmlFor="lastName" className="text-sm font-medium text-slate-700">
-            Last Name
+            Last Name *
           </label>
           <Input 
             id="lastName" 
             required 
-            placeholder="Doe" 
+            placeholder="Smith" 
             value={formData.lastName}
             onChange={handleChange}
           />
@@ -127,13 +128,13 @@ function ContactForm() {
 
       <div className="space-y-2">
         <label htmlFor="email" className="text-sm font-medium text-slate-700">
-          Email Address
+          Work Email *
         </label>
         <Input 
           id="email" 
           type="email" 
           required 
-          placeholder="jane@company.com" 
+          placeholder="john@yourbrand.com" 
           value={formData.email}
           onChange={handleChange}
         />
@@ -141,12 +142,12 @@ function ContactForm() {
 
       <div className="space-y-2">
         <label htmlFor="subject" className="text-sm font-medium text-slate-700">
-          Subject
+          Subject *
         </label>
         <Input 
           id="subject" 
           required 
-          placeholder="Inquiry about Raw Denim" 
+          placeholder="e.g., Seeking denim suppliers for 5000m order" 
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
         />
@@ -154,13 +155,13 @@ function ContactForm() {
 
       <div className="space-y-2">
         <label htmlFor="message" className="text-sm font-medium text-slate-700">
-          Message
+          Project Details *
         </label>
         <Textarea
           id="message"
           required
-          placeholder="Tell us about your project..."
-          className="min-h-[150px]"
+          placeholder="Please describe your requirements: fabric type, quantity, quality standards, preferred regions, timeline, and any specific certifications needed. The more details you provide, the better we can match you with the right manufacturer."
+          className="min-h-[180px]"
           value={formData.message}
           onChange={handleChange}
         />
@@ -172,7 +173,7 @@ function ContactForm() {
         variant="denim"
         disabled={isSubmitting}
       >
-        {isSubmitting ? 'Sending...' : 'Send Message'}
+        {isSubmitting ? 'Submitting...' : 'Submit Sourcing Request'}
       </Button>
     </form>
   );
@@ -186,11 +187,11 @@ export default function ContactPage() {
         <section className="bg-slate-900 text-white py-20 px-4 md:px-6">
           <div className="container mx-auto max-w-4xl text-center">
             <h1 className="font-serif text-4xl md:text-6xl font-bold mb-6">
-              Get in Touch
+              Start Your Sourcing Journey
             </h1>
             <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">
-              Whether you&apos;re looking for a specific fabric or need a custom
-              development, our team is here to help.
+              Tell us your requirements and we&apos;ll match you with the perfect
+              denim manufacturer from our verified network.
             </p>
           </div>
         </section>
@@ -201,11 +202,11 @@ export default function ContactPage() {
             <div className="space-y-12">
               <div>
                 <h2 className="font-serif text-3xl font-bold text-slate-900 mb-6">
-                  Contact Information
+                  Sourcing Specialists
                 </h2>
                 <p className="text-slate-600 text-lg mb-8">
-                  Reach out to our sales or support teams directly. We aim to
-                  respond to all inquiries within 24 hours.
+                  Our team of textile experts is ready to help you find the perfect
+                  manufacturer. We respond within 4 business hours.
                 </p>
 
                 <div className="space-y-6">
@@ -214,11 +215,14 @@ export default function ContactPage() {
                       <MapPin className="h-6 w-6" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-slate-900">Headquarters</h3>
+                      <h3 className="font-bold text-slate-900">Global Headquarters</h3>
                       <p className="text-slate-600">
                         Plot G 4, 10B, Nazimabad Number 2 Block 2<br />
                         Nazimabad, Karachi, 74600<br />
                         Pakistan
+                      </p>
+                      <p className="text-slate-500 text-sm mt-2">
+                        Sourcing office for South Asia region
                       </p>
                     </div>
                   </div>
@@ -231,7 +235,7 @@ export default function ContactPage() {
                       <h3 className="font-bold text-slate-900">Phone</h3>
                       <p className="text-slate-600">+92 3362793950</p>
                       <p className="text-slate-600">+92 3121278031</p>
-                      <p className="text-slate-500 text-sm">Mon-Fri, 9am - 6pm PKT</p>
+                      <p className="text-slate-500 text-sm">Mon-Fri, 9am - 6pm PKT / UTC+5</p>
                     </div>
                   </div>
 
@@ -242,6 +246,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-bold text-slate-900">Email</h3>
                       <p className="text-slate-600">info@warpweftco.com</p>
+                      <p className="text-slate-500 text-sm">Response time: &lt;4 hours</p>
                     </div>
                   </div>
                 </div>

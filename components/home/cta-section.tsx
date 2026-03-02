@@ -21,15 +21,15 @@ export function CtaSection() {
           className="max-w-3xl mx-auto space-y-8"
         >
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-white">
-            Ready to Create Your Next Collection?
+            Ready to Find Your Perfect Manufacturer?
           </h2>
           <p className="text-blue-100 text-xl max-w-2xl mx-auto">
-            Partner with Wrap Weft & Co for premium fabrics that define quality.
-            Request a sample kit or schedule a consultation today.
+            Let us match you with verified denim manufacturers that meet your exact
+            requirements. Submit your needs and get matched within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
             <Button size="lg" variant="secondary" className="text-blue-900 font-bold" asChild>
-              <Link href="/contact">Get in Touch</Link>
+              <Link href="/contact">Start Sourcing Request</Link>
             </Button>
             <Button
               size="lg"
@@ -37,7 +37,7 @@ export function CtaSection() {
               className="bg-transparent text-white border-white/30 hover:bg-white/10 hover:text-white"
               asChild
             >
-              <Link href="/collections">Browse Catalog</Link>
+              <Link href="/collections">View Manufacturer Network</Link>
             </Button>
           </div>
         </motion.div>

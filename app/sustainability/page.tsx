@@ -23,10 +23,10 @@ export default function SustainabilityPage() {
           </div>
           <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
             <h1 className="font-serif text-5xl md:text-7xl font-bold text-white mb-6">
-              Conscious Creation
+              Sustainable Sourcing
             </h1>
             <p className="text-xl text-green-100">
-              Weaving a better future through sustainable innovation and ethical practices.
+              Connecting you with eco-conscious denim manufacturers committed to planetary stewardship.
             </p>
           </div>
         </section>
@@ -35,14 +35,12 @@ export default function SustainabilityPage() {
         <section className="py-24 px-4 md:px-6 container mx-auto text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              Our Commitment to the Planet
+              Sustainable Manufacturing Partners
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              The textile industry has historically been one of the most resource-intensive
-              sectors in the world. At Wrap Weft & Co, we are challenging that narrative.
-              By integrating circular economy principles, reducing water usage, and
-              sourcing organic materials, we are proving that luxury and sustainability
-              can coexist.
+              We connect you with denim manufacturers who prioritize environmental
+              responsibility. Our network includes mills with GOTS certification,
+              closed-loop water systems, renewable energy, and circular economy practices.
             </p>
           </div>
         </section>
@@ -54,26 +52,26 @@ export default function SustainabilityPage() {
               {[
                 {
                   icon: Leaf,
-                  title: 'Organic Materials',
-                  desc: 'We source 100% GOTS-certified organic cotton, ensuring no harmful chemicals or pesticides are used in cultivation.',
+                  title: 'GOTS Certified Mills',
+                  desc: 'Connect with manufacturers using 100% organic cotton, free from harmful chemicals and pesticides.',
                   image: 'https://picsum.photos/600/400?random=10',
                 },
                 {
                   icon: Droplets,
-                  title: 'Water Stewardship',
-                  desc: 'Our closed-loop filtration systems recycle 95% of water used in the dyeing process, significantly reducing our freshwater footprint.',
+                  title: 'Water-Efficient Dyeing',
+                  desc: 'Our network includes mills with closed-loop systems that recycle up to 95% of water in the dyeing process.',
                   image: 'https://picsum.photos/600/400?random=11',
                 },
                 {
                   icon: Recycle,
-                  title: 'Circular Design',
-                  desc: 'We repurpose pre-consumer waste into new yarns and design fabrics that are easier to recycle at the end of their life.',
+                  title: 'Circular Economy',
+                  desc: 'Manufacturers who repurpose pre-consumer waste and design for end-of-life recyclability.',
                   image: 'https://picsum.photos/600/400?random=12',
                 },
                 {
                   icon: Sun,
                   title: 'Renewable Energy',
-                  desc: 'Our primary manufacturing facility is powered by 80% solar energy, with a goal to reach 100% by 2028.',
+                  desc: 'Many of our partners power their facilities with solar and wind energy, reducing carbon footprint.',
                   image: 'https://picsum.photos/600/400?random=13',
                 },
               ].map((item, idx) => (

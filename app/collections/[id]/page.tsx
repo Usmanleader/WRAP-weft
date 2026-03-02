@@ -87,7 +87,7 @@ export default async function CollectionDetailPage({params}: PageProps) {
             <div className="flex flex-col justify-center">
               <div className="mb-6">
                 <span className="inline-block rounded-full bg-blue-50 px-3 py-1 text-xs font-bold uppercase tracking-wider text-blue-900 mb-4">
-                  {collection.category}
+                  {collection.category} Manufacturer
                 </span>
                 <h1 className="font-serif text-4xl md:text-5xl font-bold text-slate-900 mb-4">
                   {collection.title}
@@ -103,7 +103,7 @@ export default async function CollectionDetailPage({params}: PageProps) {
 
               <div className="mb-10">
                 <h3 className="font-serif text-lg font-bold text-slate-900 mb-4">
-                  Key Features
+                  Manufacturer Capabilities
                 </h3>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {collection.features.map((feature, idx) => (
@@ -119,10 +119,10 @@ export default async function CollectionDetailPage({params}: PageProps) {
 
               <div className="flex flex-col sm:flex-row gap-4 pt-6 border-t border-slate-100">
                 <Button size="lg" variant="denim" className="flex-1" asChild>
-                  <Link href={`/contact?subject=Request Swatches: ${collection.title}`}>Request Swatches</Link>
+                  <Link href={`/contact?subject=Request Introduction: ${collection.title}`}>Request Introduction</Link>
                 </Button>
                 <Button size="lg" variant="outline" className="flex-1" asChild>
-                  <Link href={`/contact?subject=Spec Sheet: ${collection.title}`}>Download Spec Sheet</Link>
+                  <Link href={`/contact?subject=Capability Inquiry: ${collection.title}`}>Request Capability Statement</Link>
                 </Button>
               </div>
             </div>

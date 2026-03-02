@@ -18,21 +18,19 @@ export function AboutSnippet() {
             className="space-y-6"
           >
             <div className="inline-block rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800">
-              Our Story
+              Trusted Sourcing Partner
             </div>
             <h2 className="font-serif text-4xl font-bold text-slate-900 leading-tight">
-              Crafting Heritage Since 1985
+              Connecting Brands with Manufacturers Since 1985
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              At Wrap Weft & Co, we believe that fabric is more than just material—it&apos;s
-              the canvas of fashion. For over three decades, we have been at the
-              forefront of textile innovation, blending traditional weaving techniques
-              with modern sustainable practices.
+              Wrap Weft & Co is a global denim sourcing agency with a verified network
+              of 500+ manufacturers. We don&apos;t make fabrics—we connect you with the
+              right mills, handle quality control, and ensure smooth transactions.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
-              From our humble beginnings in a small mill to becoming a global
-              supplier for top denim brands, our commitment to quality and
-              integrity has never wavered.
+              From our Karachi office to serving clients worldwide, we&apos;ve built a
+              reputation for integrity, expertise, and results.
             </p>
             <div className="pt-4">
               <Button variant="outline" size="lg" asChild>

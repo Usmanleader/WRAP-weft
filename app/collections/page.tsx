@@ -70,11 +70,11 @@ export default function CollectionsPage() {
         <section className="bg-slate-900 text-white py-20 px-4 md:px-6">
           <div className="container mx-auto max-w-4xl text-center space-y-4">
             <h1 className="font-serif text-4xl md:text-6xl font-bold">
-              Our Collections
+              Verified Manufacturer Network
             </h1>
             <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">
-              Explore our diverse range of premium fabrics, from heritage selvedge
-              to cutting-edge sustainable blends.
+              Access 500+ denim manufacturers across Pakistan, China, Turkey, and Japan.
+              Every supplier is verified for quality, capacity, and ethical practices.
             </p>
           </div>
         </section>
@@ -151,7 +151,7 @@ export default function CollectionsPage() {
                         {collection.description}
                       </p>
                       <span className="inline-flex items-center text-sm font-bold text-blue-900 uppercase tracking-wide group-hover:underline underline-offset-4">
-                        View Details
+                        View Manufacturer
                       </span>
                     </div>
                   </Link>

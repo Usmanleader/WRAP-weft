@@ -22,43 +22,43 @@ export function Footer() {
               />
             </Link>
             <p className="text-sm text-slate-400 max-w-xs">
-              Premium denim and textile supplier for the modern fashion industry.
-              Crafting quality fabrics since 1985.
+              Global denim sourcing agency connecting brands with verified manufacturers.
+              Your trusted partner in fabric sourcing since 1985.
             </p>
           </div>
 
           <div>
             <h3 className="font-serif font-semibold text-white mb-4">
-              Collections
+              Manufacturer Network
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/collections/denim" className="hover:text-blue-400">
-                  Raw Denim
+                <Link href="/collections" className="hover:text-blue-400">
+                  All Manufacturers
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/collections/sustainable"
+                  href="/collections?category=Jeans"
                   className="hover:text-blue-400"
                 >
-                  Sustainable Blends
+                  Jeans Manufacturers
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/collections/stretch"
+                  href="/collections?category=Jackets"
                   className="hover:text-blue-400"
                 >
-                  Stretch Fabrics
+                  Jacket Manufacturers
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/collections/vintage"
+                  href="/collections?category=Skirts"
                   className="hover:text-blue-400"
                 >
-                  Vintage Selvedge
+                  Skirt Manufacturers
                 </Link>
               </li>
             </ul>

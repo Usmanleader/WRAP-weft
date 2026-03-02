@@ -6,23 +6,23 @@ import {Sprout, Droplets, Recycle, ShieldCheck} from 'lucide-react';
 const steps = [
   {
     icon: Sprout,
-    title: 'Sustainably Sourced',
-    description: 'We partner with certified organic cotton farms to ensure ethical sourcing.',
+    title: 'Verified Network',
+    description: 'Every manufacturer undergoes our 47-point verification covering quality, capacity, certifications, and ethical practices.',
   },
   {
     icon: Droplets,
-    title: 'Water Conservation',
-    description: 'Our dyeing process uses 80% less water than traditional methods.',
+    title: 'Quality Control',
+    description: 'We conduct pre-production sampling, mid-production inspections, and final quality assurance before shipment.',
   },
   {
     icon: Recycle,
-    title: 'Circular Economy',
-    description: 'We recycle fabric scraps and use post-consumer waste in our blends.',
+    title: 'Logistics Support',
+    description: 'From sample coordination to final delivery, we manage shipping, customs, and documentation.',
   },
   {
     icon: ShieldCheck,
-    title: 'Quality Assurance',
-    description: 'Every yard is inspected for durability, texture, and color consistency.',
+    title: 'Risk Mitigation',
+    description: 'We protect buyers with contracts, payment security, and dispute resolution services.',
   },
 ];
 
@@ -37,11 +37,11 @@ export function ProcessSection() {
           className="max-w-3xl mx-auto mb-16"
         >
           <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6">
-            Responsible Manufacturing
+            Your End-to-End Sourcing Partner
           </h2>
           <p className="text-slate-400 text-lg">
-            We are committed to reducing our environmental footprint while maintaining
-            the highest standards of textile production.
+            We manage the entire sourcing journey—from matching you with the right
+            manufacturer to ensuring timely delivery of quality fabrics.
           </p>
         </motion.div>
 

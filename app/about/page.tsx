@@ -22,10 +22,10 @@ export default function AboutPage() {
           </div>
           <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
             <h1 className="font-serif text-5xl md:text-7xl font-bold text-white mb-6">
-              Our Heritage
+              Your Trusted Sourcing Partner
             </h1>
             <p className="text-xl text-slate-300">
-              Three decades of weaving excellence, innovation, and integrity.
+              Connecting global brands with premium denim manufacturers since 1985.
             </p>
           </div>
         </section>
@@ -35,20 +35,21 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-slate-900">
-                From Loom to Legacy
+                From Local Mill to Global Network
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Founded in 1985 by master weaver Elias Thorne, Wrap Weft & Co began
-                with a single shuttle loom and a vision: to create denim that
-                ages beautifully. What started in a small workshop has grown into
-                a state-of-the-art manufacturing facility, yet our core
-                philosophy remains unchanged.
+                Founded in 1985 by textile expert Elias Thorne, Wrap Weft & Co began
+                as a small denim trading office in Karachi. What started as a local
+                connection between Pakistani manufacturers and regional buyers has
+                evolved into a global sourcing agency with a verified network of
+                500+ denim mills across Pakistan, China, Turkey, and Japan.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                We believe that great fabric tells a story. Every thread we spin,
-                every yard we weave, is imbued with the passion and expertise of
-                our artisans. We don&apos;t just manufacture textiles; we craft the
-                foundation for the world&apos;s most iconic fashion brands.
+                We don&apos;t manufacture fabrics ourselves—we are expert matchmakers.
+                Our deep industry relationships, rigorous quality control, and
+                end-to-end logistics support ensure that every buyer finds the
+                perfect manufacturer for their needs. We bridge the gap between
+                quality producers and discerning brands worldwide.
               </p>
             </div>
             <div className="relative aspect-square md:aspect-[4/5] rounded-lg overflow-hidden bg-slate-100">
@@ -77,16 +78,16 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 {
-                  title: 'Quality First',
-                  desc: 'We never compromise on materials or craftsmanship. Excellence is our baseline.',
+                  title: 'Verified Network',
+                  desc: 'Every manufacturer in our network undergoes a 47-point verification process covering quality, capacity, certifications, and ethical practices.',
                 },
                 {
-                  title: 'Sustainable Innovation',
-                  desc: 'Pioneering eco-friendly dyeing and weaving techniques to protect our planet.',
+                  title: 'End-to-End Support',
+                  desc: 'From initial requirement gathering to final delivery, we manage sampling, quality inspections, negotiations, and logistics.',
                 },
                 {
-                  title: 'Artisan Partnership',
-                  desc: 'Collaborating closely with designers to bring their unique visions to life.',
+                  title: 'Global Reach',
+                  desc: 'Our network spans 500+ manufacturers across Pakistan, China, Turkey, Japan, and beyond, giving you access to diverse capabilities and competitive pricing.',
                 },
               ].map((value, idx) => (
                 <motion.div

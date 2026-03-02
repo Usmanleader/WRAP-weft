@@ -30,19 +30,17 @@ export function Hero() {
           className="max-w-2xl space-y-6"
         >
           <div className="inline-block rounded-full bg-blue-900/30 px-3 py-1 text-sm font-medium text-blue-200 border border-blue-800/50 backdrop-blur-sm">
-            Premium Textile Manufacturing
+            Global Denim Sourcing Agency
           </div>
           <h1 className="font-serif text-5xl font-bold leading-tight text-white md:text-7xl">
-            Weaving the Fabric of <span className="text-blue-400">Modern Fashion</span>
+            Connecting Buyers with <span className="text-blue-400">Premium Manufacturers</span>
           </h1>
           <p className="text-lg text-slate-300 md:text-xl max-w-lg">
-            Wrap Weft & Co specializes in high-quality denim and sustainable
-            textiles. We bring texture, durability, and innovation to your
-            designs.
+            Wrap Weft & Co is your trusted partner in denim sourcing. We connect fashion brands with verified manufacturers worldwide, handling quality assurance, logistics, and negotiations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Button size="lg" variant="denim" className="text-base px-8" asChild>
-              <Link href="/collections">View Collections</Link>
+              <Link href="/collections">Browse Manufacturer Network</Link>
             </Button>
             <Button
               size="lg"
@@ -50,7 +48,7 @@ export function Hero() {
               className="text-base px-8 bg-transparent text-white border-white/20 hover:bg-white/10 hover:text-white"
               asChild
             >
-              <Link href="/contact">Request Samples</Link>
+              <Link href="/contact">Submit Sourcing Requirements</Link>
             </Button>
             <Button
               size="lg"
