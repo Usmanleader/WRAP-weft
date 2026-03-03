@@ -45,12 +45,12 @@ export default function AboutPage() {
                 500+ denim manufacturers across Pakistan, China, Turkey, and Japan.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Your gateway to the world's finest denim manufacturers. With decades
-                of expertise and a curated network of 500+ partners across Pakistan,
-                China, Turkey, and Japan, we connect you with suppliers that
-                match your exact specifications—quality, capacity, and price. From
-                initial sampling to final delivery, we manage every step so you can
-                build your brand with confidence.
+                We connect you with premium denim manufacturers from our curated
+                network of 500+ partners across Pakistan, China, Turkey, and Japan.
+                With decades of expertise, we match you with suppliers that meet your
+                exact specifications—quality, capacity, and price. From initial sampling
+                to final delivery, we manage every step so you can build your brand
+                with confidence.
               </p>
             </div>
             <div className="relative aspect-square md:aspect-[4/5] rounded-lg overflow-hidden bg-slate-100">
