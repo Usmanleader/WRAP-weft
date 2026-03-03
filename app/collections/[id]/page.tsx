@@ -53,7 +53,7 @@ export async function generateMetadata({params}: PageProps): Promise<Metadata> {
   }
 
   return {
-    title: `${collection.title} | Wrap Weft & Co`,
+    title: `${collection.title} | Warp Weft & Co`,
     description: collection.description,
   };
 }

@@ -38,7 +38,7 @@ export default function AboutPage() {
                 From Local Mill to Global Network
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Founded in 1985 by textile expert Elias Thorne, Wrap Weft & Co began
+                Founded in 1985 by textile expert Elias Thorne, Warp Weft & Co began
                 as a small denim trading office in Karachi. What started as a local
                 connection between Pakistani manufacturers and regional buyers has
                 evolved into a global sourcing agency with a verified network of

@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Wrap Weft & Co | Global Denim Sourcing Agency & Manufacturer Network',
+  title: 'Warp Weft & Co | Global Denim Sourcing Agency & Manufacturer Network',
   description: 'Global denim sourcing agency connecting brands with verified manufacturers worldwide. Access 500+ denim mills, quality assurance, and end-to-end sourcing services.',
 };
 

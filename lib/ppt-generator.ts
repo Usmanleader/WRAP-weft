@@ -16,10 +16,10 @@ export async function generateCompanyPresentation() {
   const pptx = new window.PptxGenJS();
 
   // Set Metadata
-  pptx.author = 'Wrap Weft & Co';
-  pptx.company = 'Wrap Weft & Co';
+  pptx.author = 'Warp Weft & Co';
+  pptx.company = 'Warp Weft & Co';
   pptx.subject = 'Company Overview & Collections';
-  pptx.title = 'Wrap Weft & Co - Premium Textile Supplier';
+  pptx.title = 'Warp Weft & Co - Premium Textile Supplier';
 
   // Define Layouts/Masters
   pptx.defineSlideMaster({
@@ -31,7 +31,7 @@ export async function generateCompanyPresentation() {
       },
       {
         text: {
-          text: 'Wrap Weft & Co',
+          text: 'Warp Weft & Co',
           options: {
             x: 0.5,
             y: 0.15,
@@ -69,7 +69,7 @@ export async function generateCompanyPresentation() {
   // 1. Title Slide
   const slide1 = pptx.addSlide();
   slide1.background = {color: '0F172A'}; // slate-900
-  slide1.addText('Wrap Weft & Co', {
+  slide1.addText('Warp Weft & Co', {
     x: 1,
     y: 2.5,
     w: '80%',
@@ -112,7 +112,7 @@ export async function generateCompanyPresentation() {
     bold: true,
   });
   slide2.addText(
-    'Founded in 1985, Wrap Weft & Co has grown from a single shuttle loom workshop into a global leader in premium textile manufacturing. We blend traditional craftsmanship with modern innovation.',
+    'Founded in 1985, Warp Weft & Co has grown from a single shuttle loom workshop into a global leader in premium textile manufacturing. We blend traditional craftsmanship with modern innovation.',
     {x: 0.5, y: 1.8, w: '45%', h: 4, fontSize: 14, color: '334155', align: 'justify'}
   );
   // Add placeholder for an image if we had local assets, for now using a shape

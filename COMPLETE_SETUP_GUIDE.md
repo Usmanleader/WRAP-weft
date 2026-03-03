@@ -1,4 +1,4 @@
-# WRAP WEFT & CO - COMPLETE SETUP AND HOSTING GUIDE
+# WARP WEFT & CO - COMPLETE SETUP AND HOSTING GUIDE
 
 **Last Updated:** February 20, 2026  
 **Project:** Premium Textile Supplier Website  
@@ -26,7 +26,7 @@
 
 ## PROJECT OVERVIEW
 
-**What is Wrap Weft & Co?**
+**What is Warp Weft & Co?**
 - B2B textile supplier connecting premium denim/fabric manufacturers with fashion brands
 - Showcases 6 fabric collections (Raw Denim, Sustainable, Performance, Vintage, Summer Linen, Canvas)
 - Allows customers to browse collections, contact company, and download company profile
@@ -434,7 +434,7 @@ git config user.name "Your Name"
 git add -A
 
 # Create initial commit
-git commit -m "Initial commit: Wrap Weft & Co textile supplier website"
+git commit -m "Initial commit: Warp Weft & Co textile supplier website"
 ```
 
 ### Step 3: Push to GitHub

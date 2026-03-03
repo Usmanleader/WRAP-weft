@@ -24,7 +24,7 @@ export function AboutSnippet() {
               Connecting Brands with Manufacturers Since 1985
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Wrap Weft & Co connects you with premium denim manufacturers from our
+              Warp Weft & Co connects you with premium denim manufacturers from our
               verified network of 500+ partners. We handle quality assurance,
               negotiations, and logistics so you can focus on building your brand.
             </p>

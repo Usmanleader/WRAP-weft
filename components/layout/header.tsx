@@ -16,7 +16,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/retygfdh.png"
-            alt="Wrap Weft & Co"
+            alt="Warp Weft & Co"
             width={120}
             height={32}
             className="h-8 w-auto"

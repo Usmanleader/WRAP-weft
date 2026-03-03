@@ -6,7 +6,7 @@
 ---
 
 ## 🎯 OBJECTIVE
-Update the Wrap Weft & Co website with new content and deploy to production.
+Update the Warp Weft & Co website with new content and deploy to production.
 
 ---
 
@@ -321,4 +321,4 @@ npm install
 
 *Last Updated: March 2, 2026*  
 *Deployed by: GitHub Copilot Assistant*  
-*Project: Wrap Weft & Co*
+*Project: Warp Weft & Co*

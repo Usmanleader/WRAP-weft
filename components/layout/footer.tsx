@@ -15,7 +15,7 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <Image
                 src="/retygfdh.png"
-                alt="Wrap Weft & Co"
+                alt="Warp Weft & Co"
                 width={120}
                 height={32}
                 className="h-8 w-auto"
@@ -126,7 +126,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-slate-800 text-center text-sm text-slate-500">
-          © {new Date().getFullYear()} Wrap Weft & Co. All rights reserved.
+          © {new Date().getFullYear()} Warp Weft & Co. All rights reserved.
         </div>
       </div>
     </footer>

@@ -36,7 +36,7 @@ export function Hero() {
             Connecting Buyers with <span className="text-blue-400">Premium Manufacturers</span>
           </h1>
           <p className="text-lg text-slate-300 md:text-xl max-w-lg">
-            Wrap Weft & Co is your trusted partner in denim sourcing. We connect fashion brands with verified manufacturers worldwide, handling quality assurance, logistics, and negotiations.
+            Warp Weft & Co is your trusted partner in denim sourcing. We connect fashion brands with verified manufacturers worldwide, handling quality assurance, logistics, and negotiations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Button size="lg" variant="denim" className="text-base px-8" asChild>
