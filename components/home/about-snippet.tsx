@@ -21,7 +21,7 @@ export function AboutSnippet() {
               Trusted Sourcing Partner
             </div>
             <h2 className="font-serif text-4xl font-bold text-slate-900 leading-tight">
-              Connecting Brands with Manufacturers Since 1985
+              Connecting Brands with Premium Manufacturers
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
               Warp Weft & Co connects you with premium denim manufacturers from our

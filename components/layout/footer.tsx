@@ -23,7 +23,7 @@ export function Footer() {
             </Link>
             <p className="text-sm text-slate-400 max-w-xs">
               Global denim sourcing agency connecting brands with verified manufacturers.
-              Your trusted partner in fabric sourcing since 1985.
+              Your trusted partner in fabric sourcing.
             </p>
           </div>
 
