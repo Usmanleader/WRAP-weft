@@ -24,9 +24,10 @@ export function AboutSnippet() {
               Connecting Brands with Manufacturers Since 1985
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Wrap Weft & Co is a global denim sourcing agency with a verified network
-              of 500+ manufacturers. We connect you directly with the right mills,
-              handle quality control, and ensure smooth transactions.
+              Wrap Weft & Co is your gateway to 500+ verified denim manufacturers.
+              We connect you with the perfect partner for your needs—handling quality
+              assurance, negotiations, and logistics so you can focus on building
+              your brand.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
               From our Karachi office to serving clients worldwide, we&apos;ve built a
