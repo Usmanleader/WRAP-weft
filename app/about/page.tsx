@@ -45,9 +45,9 @@ export default function AboutPage() {
                 500+ denim mills across Pakistan, China, Turkey, and Japan.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                We don&apos;t manufacture fabrics ourselves—we are expert matchmakers.
-                Our deep industry relationships, rigorous quality control, and
-                end-to-end logistics support ensure that every buyer finds the
+                We connect you directly with verified manufacturers—we are expert
+                matchmakers. Our deep industry relationships, rigorous quality control,
+                and end-to-end logistics support ensure that every buyer finds the
                 perfect manufacturer for their needs. We bridge the gap between
                 quality producers and discerning brands worldwide.
               </p>

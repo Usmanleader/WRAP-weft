@@ -25,8 +25,8 @@ export function AboutSnippet() {
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
               Wrap Weft & Co is a global denim sourcing agency with a verified network
-              of 500+ manufacturers. We don&apos;t make fabrics—we connect you with the
-              right mills, handle quality control, and ensure smooth transactions.
+              of 500+ manufacturers. We connect you directly with the right mills,
+              handle quality control, and ensure smooth transactions.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
               From our Karachi office to serving clients worldwide, we&apos;ve built a
