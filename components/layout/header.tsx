@@ -3,12 +3,19 @@
 import * as React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import {Menu, X, ShoppingBag} from 'lucide-react';
+import {Menu, X, Linkedin, Facebook, Instagram, MessageCircle} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {motion, AnimatePresence} from 'motion/react';
 
 export function Header() {
   const [isOpen, setIsOpen] = React.useState(false);
+
+  const socialLinks = [
+    {icon: Linkedin, href: 'https://www.linkedin.com/in/warpweftco/', label: 'LinkedIn'},
+    {icon: Facebook, href: 'https://www.facebook.com/', label: 'Facebook'},
+    {icon: Instagram, href: 'https://www.instagram.com/', label: 'Instagram'},
+    {icon: MessageCircle, href: 'https://wa.me/923362793950', label: 'WhatsApp'},
+  ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/80 backdrop-blur-md">
@@ -51,6 +58,22 @@ export function Header() {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
+          {/* Social Media Icons */}
+          <div className="flex items-center gap-3">
+            {socialLinks.map((social, index) => (
+              <Link
+                key={index}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-600 hover:text-blue-900 transition-colors"
+                aria-label={social.label}
+              >
+                <social.icon className="h-5 w-5" />
+              </Link>
+            ))}
+          </div>
+          <div className="w-px h-6 bg-slate-300" />
           <Button variant="denim" size="sm" asChild>
             <Link href="/contact">Get a Quote</Link>
           </Button>
@@ -104,6 +127,22 @@ export function Header() {
               <Button variant="denim" className="w-full" asChild>
                 <Link href="/contact">Get a Quote</Link>
               </Button>
+              {/* Mobile Social Links */}
+              <div className="flex items-center justify-center gap-4 pt-4 border-t border-slate-100">
+                {socialLinks.map((social, index) => (
+                  <Link
+                    key={index}
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-600 hover:text-blue-900"
+                    aria-label={social.label}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <social.icon className="h-5 w-5" />
+                  </Link>
+                ))}
+              </div>
             </nav>
           </motion.div>
         )}

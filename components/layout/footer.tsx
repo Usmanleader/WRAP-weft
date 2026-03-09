@@ -2,10 +2,17 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import {Facebook, Instagram, Linkedin, Twitter, FileText} from 'lucide-react';
+import {Facebook, Instagram, Linkedin, Twitter, FileText, MessageCircle} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 
 export function Footer() {
+
+  const socialLinks = [
+    {icon: Linkedin, href: 'https://www.linkedin.com/in/warpweftco/', label: 'LinkedIn'},
+    {icon: Facebook, href: 'https://www.facebook.com/', label: 'Facebook'},
+    {icon: Instagram, href: 'https://www.instagram.com/', label: 'Instagram'},
+    {icon: MessageCircle, href: 'https://wa.me/923362793950', label: 'WhatsApp'},
+  ];
 
   return (
     <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
@@ -107,21 +114,21 @@ export function Footer() {
               Connect
             </h3>
             <div className="flex space-x-4 mb-4">
-              <Link href="#" className="hover:text-blue-400">
-                <Instagram className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="hover:text-blue-400">
-                <Linkedin className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="hover:text-blue-400">
-                <Twitter className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="hover:text-blue-400">
-                <Facebook className="h-5 w-5" />
-              </Link>
+              {socialLinks.map((social, index) => (
+                <Link
+                  key={index}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-400 hover:text-blue-400 transition-colors"
+                  aria-label={social.label}
+                >
+                  <social.icon className="h-5 w-5" />
+                </Link>
+              ))}
             </div>
             <p className="text-sm text-slate-400">
-              Subscribe to our newsletter for the latest fabric trends.
+              Follow us on social media for updates and news.
             </p>
           </div>
         </div>
