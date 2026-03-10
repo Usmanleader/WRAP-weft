@@ -217,9 +217,9 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-bold text-slate-900">Global Headquarters</h3>
                       <p className="text-slate-600">
-                        Plot G 4, 10B, Nazimabad Number 2 Block 2<br />
-                        Nazimabad, Karachi, 74600<br />
-                        Pakistan
+                        PLOT NO.43/B, SECTOR 31/D,<br />
+                        P & T HOUSING SOCIETY KORANGI<br />
+                        KARACHI, PAKISTAN
                       </p>
                       <p className="text-slate-500 text-sm mt-2">
                         Sourcing office for South Asia region
