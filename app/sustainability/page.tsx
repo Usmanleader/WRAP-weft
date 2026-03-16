@@ -26,7 +26,7 @@ export default function SustainabilityPage() {
               Sustainable Sourcing
             </h1>
             <p className="text-xl text-green-100">
-              Connecting you with eco-conscious denim manufacturers committed to planetary stewardship.
+              Connecting you with eco-conscious garment manufacturers committed to planetary stewardship.
             </p>
           </div>
         </section>
@@ -38,7 +38,7 @@ export default function SustainabilityPage() {
               Sustainable Manufacturing Partners
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              We connect you with denim manufacturers who prioritize environmental
+              We connect you with garment manufacturers who prioritize environmental
               responsibility. Our network includes mills with GOTS certification,
               closed-loop water systems, renewable energy, and circular economy practices.
             </p>

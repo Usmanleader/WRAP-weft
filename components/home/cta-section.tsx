@@ -24,7 +24,7 @@ export function CtaSection() {
             Ready to Find Your Perfect Manufacturer?
           </h2>
           <p className="text-blue-100 text-xl max-w-2xl mx-auto">
-            Let us match you with verified denim manufacturers that meet your exact
+            Let us match you with verified garment manufacturers that meet your exact
             requirements. Submit your needs and get matched within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">

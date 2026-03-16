@@ -25,7 +25,7 @@ export default function AboutPage() {
               Your Trusted Sourcing Partner
             </h1>
             <p className="text-xl text-slate-300">
-              Connecting global brands with premium denim manufacturers.
+              Connecting global brands with premium garment manufacturers.
             </p>
           </div>
         </section>
@@ -38,14 +38,14 @@ export default function AboutPage() {
                 From Local Mill to Global Network
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Warp Weft & Co began as a small denim trading office in Karachi.
-                What started as a local connection between Pakistani manufacturers
-                and regional buyers has evolved into a global sourcing agency with
-                a verified network of 500+ denim manufacturers across Pakistan,
-                China, Turkey, and Japan.
-              </p>
-              <p className="text-lg text-slate-600 leading-relaxed">
-                We connect you with premium denim manufacturers from our curated
+              Warp Weft & Co began as a small garment trading office in Karachi.
+              What started as a local connection between Pakistani manufacturers
+              and regional buyers has evolved into a global sourcing agency with
+              a verified network of 500+ garment manufacturers across Pakistan,
+              China, Turkey, and Japan.
+            </p>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              We connect you with premium garment manufacturers from our curated
                 network of 500+ partners across Pakistan, China, Turkey, and Japan.
                 With decades of expertise, we match you with suppliers that meet your
                 exact specifications—quality, capacity, and price. From initial sampling

@@ -73,7 +73,7 @@ export default function CollectionsPage() {
               Verified Manufacturer Network
             </h1>
             <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">
-              Access 500+ denim manufacturers across Pakistan, China, Turkey, and Japan.
+              Access 500+ garment manufacturers across Pakistan, China, Turkey, and Japan.
               Every supplier is verified for quality, capacity, and ethical practices.
             </p>
           </div>

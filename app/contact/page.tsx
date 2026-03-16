@@ -191,7 +191,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">
               Tell us your requirements and we&apos;ll match you with the perfect
-              denim manufacturer from our verified network.
+              garment manufacturer from our verified network.
             </p>
           </div>
         </section>
